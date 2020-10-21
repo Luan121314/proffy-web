@@ -3,6 +3,7 @@ import './styles.css'
 import background from '../../assets/images/background.svg';
 import logoImg from '../../assets/images/logo.svg';
 import purpleHeartIcon from '../../assets/images/icons/purple-heart.svg'
+import { Link } from 'react-router-dom';
 
 const Login = () => {
     return (
@@ -26,14 +27,14 @@ const Login = () => {
                             <input type="checkbox" name="remember" id="remember" />
                             <label htmlFor="remember">Lembrar-me</label>
                         </div>
-                        <a className="forgtPassword" >Esqueci minha senha</a>
+                        <Link to="" className="forgtPassword" >Esqueci minha senha</Link>
                     </div>
                     <button type="submit">Entrar</button>
                 </form>
                 <footer className="footer-content" >
                     <div className="footer-newAccount" >
                         <label >Não tem conta?</label>
-                        <a href="">Cadastre-se</a>
+                        <Link to="">Cadastre-se</Link>
                     </div>
                     <label >É de graça
                         <img src={purpleHeartIcon} alt="hearth" />
