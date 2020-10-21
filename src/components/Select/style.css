@@ -20,7 +20,7 @@
     border:  1px solid var(--coloer-line-in-white);
     outline: 0;
     padding: 0.6rem;
-    font: 1.6rem Archivo
+    font: 1.7rem Archivo;
 }
 
  .select-block:focus-within::after{
